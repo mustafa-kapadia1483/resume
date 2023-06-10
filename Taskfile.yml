@@ -1,0 +1,35 @@
+version: "3"
+
+silent: true
+
+vars:
+    TYPST_FILENAME: resume.typ
+    PDF_FILENAME: resume.pdf
+
+tasks:
+    default:
+        desc: Compile the Typst file to PDF
+        summary: |
+            Compile the Typst file to PDF.
+
+            This command will invoke the "typst" command to compile the "resume.typ" file in to a
+            PDF file which can then be accessed through a PDF viewer.
+        sources:
+            - "{{.TYPST_FILENAME}}"
+        generates:
+            - "{{.PDF_FILENAME}}"
+        cmds:
+            - echo "Compiling the {{.TYPST_FILENAME}} file to {{.PDF_FILENAME}}"
+            - typst compile {{.TYPST_FILENAME}} {{.PDF_FILENAME}}
+
+    cleanup:
+        desc: Cleanup the repository of any unncessary artifacts.
+        summary: |
+            Clean up any artifacts (including the generated PDF file).
+
+            Invoking this command will remove any unnecessary artifacts including the generated PDF
+            file. Run this task when you need to regenerate the PDF file from scratch for whatever
+            reason it may be.
+        cmds:
+            - echo "Cleaning up artifacts"
+            - rm --recursive --force {{.PDF_FILENAME}}
