@@ -18,6 +18,8 @@ tasks:
             - "{{.TYPST_FILENAME}}"
         generates:
             - "{{.PDF_FILENAME}}"
+        status:
+            - test -x "$(command -v typst)"
         cmds:
             - echo "Compiling the {{.TYPST_FILENAME}} file to {{.PDF_FILENAME}}"
             - typst compile {{.TYPST_FILENAME}} {{.PDF_FILENAME}}
