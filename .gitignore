@@ -41,7 +41,10 @@ tags
 .history
 .ionide
 
-# Taskfile hashes for generating artifacts
+### Taskfile ###
 .task
+
+### Typst ###
+*.pdf
 
 # End of https://www.toptal.com/developers/gitignore/api/vim,visualstudiocode
