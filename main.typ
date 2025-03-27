@@ -44,7 +44,8 @@
 // The "skills" section
 #section[Skills]
 *Software Development*: Python, Golang, Lua, TypeScript (and JavaScript) \
-*Miscellaneous*: Terraform, Ansible, Git, Packer
+*Frameworks & Libraries*: FastAPI, Nuxt.js, Chi, SQLAlchemy \
+*Miscellaneous*: Terraform, Ansible, Git, Packer, PostgreSQL
 
 // The "experience" section
 #section[Experience]
