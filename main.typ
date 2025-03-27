@@ -11,6 +11,9 @@
 // Configure the hyperlinks to render with an underline
 #show link: underline
 
+// Set a more legible font
+#set text(font: "Liberation Serif")
+
 // Function to define the header of the resume
 #let header(name: "John Doe") = {
   text(size: 25pt, align(center, [#name]))
