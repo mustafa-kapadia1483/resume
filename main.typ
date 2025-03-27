@@ -8,6 +8,14 @@
 // Configure the hyperlinks to render with an underline
 #show link: underline
 
+// Function to define the section headers of the resume
+#let header(body) = {
+  text(size: 15pt)[#body]
+  v(4pt, weak: true)
+  line(length: 100%, stroke: 1pt)
+  v(6pt, weak: true)
+}
+
 // The top-level heading of the resume
 #text(size: 25pt, align(center, [Somraj Saha]))
 
@@ -26,18 +34,12 @@
 #linebreak()
 
 // The "skills" section
-#text(size: 15pt)[Skills]
-#v(4pt, weak: true)
-#line(length: 100%, stroke: 1pt)
-#v(6pt, weak: true)
+#header[Skills]
 *Software Development*: Python, Golang, Lua, TypeScript (and JavaScript) \
 *Miscellaneous*: Terraform, Ansible, Git, Packer
 
 // The "experience" section
-#text(size: 15pt)[Experience]
-#v(4pt, weak: true)
-#line(length: 100%, stroke: 1pt)
-#v(6pt, weak: true)
+#header[Experience]
 #grid(
   columns: (96%, auto),
   [*Chief Technology Officer (CTO)*, Weburz Ltd -- Remote], [2022],
@@ -59,20 +61,14 @@
 )
 
 // The "projects" section
-#text(size: 15pt)[Projects]
-#v(4pt, weak: true)
-#line(length: 100%, stroke: 1pt)
-#v(6pt, weak: true)
+#header[Projects]
 #grid(
   columns: (65%, auto),
   [*jarmos.dev*], [#link("https://github.com/Jarmos-san/jarmos.dev")[github.com/Jarmos-san/jarmos.dev]],
 )
 
 // The "education" section
-#text(size: 15pt)[Education]
-#v(4pt, weak: true)
-#line(length: 100%, stroke: 1pt)
-#v(6pt, weak: true)
+#header[Education]
 #grid(
   columns: (20fr, 1fr),
   align: auto,
