@@ -57,20 +57,39 @@
   [*Chief Technology Officer (CTO)*, Weburz Ltd -- Remote], grid.cell(align(right, [2022])),
 )
 
+- #lorem(20)
+- #lorem(20)
+- #lorem(20)
+
 #grid(
   columns: (auto, 1fr),
   [*Senior Software Engineer*, Augwir Technologies -- Remote], grid.cell(align(right, [2021-2022])),
 )
+
+- #lorem(20)
+- #lorem(20)
+- #lorem(20)
 
 #grid(
   columns: (auto, 1fr),
   [*Technical Writer*, deepen -- Remote], grid.cell(align(right, [2020-2021])),
 )
 
+- #lorem(20)
+- #lorem(20)
+- #lorem(20)
+
 #grid(
   columns: (auto, 1fr),
   [*Software Support Engineer*, MoveInSync -- Bangalore, India], grid.cell(align(right, [2019-2020])),
 )
+
+- Triaged & analysed 5-10 tickets a day on average before communicating the severity to the Software Engineering (SWE) teams daily. This helped SWE teams deploy important bug fixes 5x faster.
+
+- Involved myself in keeping vigilance on the frontend for any unintended behaviour. Depending on the severity, I fixed such issues from the backend within 24 hours of reporting.
+
+- Collaborated with the Customer Support & the SWE teams resulting in a 90% reduction of miscommunications.
+
 
 // The "projects" section
 #section[Projects]
