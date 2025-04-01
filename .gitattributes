@@ -30,6 +30,7 @@
 *.tsv      text
 *.txt      text
 *.sql      text
+*.typ      text
 
 # Graphics
 *.png      binary
