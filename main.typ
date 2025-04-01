@@ -31,6 +31,13 @@
   )
 }
 
+// Function definition to render the roles
+#let role(name, company, location, start, end) = {
+  grid(columns: (auto, 1fr), [#text(strong(name), size: 12pt), #company -- #location], grid.cell(
+      align(right, [#start\-#end]),
+    ))
+}
+
 // Function to define the section of the resume
 #let section(body) = {
   text(size: 15pt)[#body]
@@ -52,31 +59,21 @@
 
 // The "experience" section
 #section[Experience]
-#grid(
-  columns: (auto, 1fr),
-  [#text(strong("Chief Technology Officer (CTO)"), size: 12pt), Weburz Ltd -- Remote], grid.cell(align(right, [2022])),
-)
+
+#role("Chief Technology Officer (CTO)", "Weburz Ltd", "Remote", "2022", "2025")
 
 - #lorem(20)
 - #lorem(20)
 - #lorem(20)
 
-#grid(
-  columns: (auto, 1fr),
-  [#text(strong("Senior Software Engineer"), size: 12pt), Augwir Technologies -- Remote], grid.cell(
-    align(right, [2021-2022]),
-  ),
-)
+#role("Senior Software Engineer", "Augwir Technologies", "Remote", "2021", "2022")
 
 - TODO: Add some pointers about working in Augwir Technologies Ltd.
 - #lorem(20)
 - #lorem(20)
 - #lorem(20)
 
-#grid(
-  columns: (auto, 1fr),
-  [#text(strong("Technical Writer"), size: 12pt), deepen -- Remote], grid.cell(align(right, [2020-2021])),
-)
+#role("Technical Writer", "deepen", "Remote", "2020", "2021")
 
 - *Collaborated with the marketing team* to develop a content strategy focused on technical topics such as *Computer Vision (CV) and Machine Learning (ML)*, bridging the knowledge gap and ensuring accurate, high-quality articles.
 
@@ -84,12 +81,7 @@
 
 - *Optimized past and future blog posts* for SEO by ensuring the inclusion of *relevant technical keywords*. This initiative resulted in a *3x increase in organic traffic*, boosting the blog's visibility and engagement.
 
-#grid(
-  columns: (auto, 1fr),
-  [#text(strong("Software Support Engineer"), size: 12pt), MoveInSync -- Bangalore, India], grid.cell(
-    align(right, [2019-2020]),
-  ),
-)
+#role("Software Support Engineer", "MoveInSync", "Bangalore, India", "2019", "2020")
 
 - *Triaged and analyzed* 5-10 tickets daily, assessing severity and escalating critical issues to the Software Engineering (SWE) teams. This *enabled bug fixes to be deployed 5x faster*, reducing downtime and improving system stability.
 
