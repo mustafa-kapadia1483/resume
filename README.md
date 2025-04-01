@@ -13,4 +13,7 @@ https://docs.google.com/document/d/1MBvhATv8y-ESORopRoLSZ3f3HjkM_Qa_f8fIHAEqgnI
 
 # Licensing and Distribution
 
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Jarmos-san/resume">Resume</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Jarmos-san">Somraj Saha</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></a></p>
+The contents of this repository are licensed under the terms and conditions
+(T&Cs) of CC BY-NC 4.0 and you are allowed to modify, copy and distribute the
+contents under similar T&Cs. For more information on the licensing T&Cs, refer
+to the [LICENSE](./LICENSE) document.
