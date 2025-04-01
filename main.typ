@@ -54,7 +54,7 @@
 #section[Experience]
 #grid(
   columns: (auto, 1fr),
-  [*Chief Technology Officer (CTO)*, Weburz Ltd -- Remote], grid.cell(align(right, [2022])),
+  [#text(strong("Chief Technology Officer (CTO)"), size: 12pt), Weburz Ltd -- Remote], grid.cell(align(right, [2022])),
 )
 
 - #lorem(20)
@@ -63,42 +63,39 @@
 
 #grid(
   columns: (auto, 1fr),
-  [*Senior Software Engineer*, Augwir Technologies -- Remote], grid.cell(align(right, [2021-2022])),
-)
-
-- #lorem(20)
-- #lorem(20)
-- #lorem(20)
-
-#grid(
-  columns: (auto, 1fr),
-  [*Technical Writer*, deepen -- Remote], grid.cell(align(right, [2020-2021])),
-)
-
-- #lorem(20)
-- #lorem(20)
-- #lorem(20)
-
-#grid(
-  columns: (auto, 1fr),
-  [*Software Support Engineer*, MoveInSync -- Bangalore, India], grid.cell(align(right, [2019-2020])),
-)
-
-- Triaged & analysed 5-10 tickets a day on average before communicating the severity to the Software Engineering (SWE) teams daily. This helped SWE teams deploy important bug fixes 5x faster.
-
-- Involved myself in keeping vigilance on the frontend for any unintended behaviour. Depending on the severity, I fixed such issues from the backend within 24 hours of reporting.
-
-- Collaborated with the Customer Support & the SWE teams resulting in a 90% reduction of miscommunications.
-
-
-// The "projects" section
-#section[Projects]
-#grid(
-  columns: (auto, 1fr),
-  [*jarmos.dev*], grid.cell(
-    align(right, [#link("https://github.com/Jarmos-san/jarmos.dev")[github.com/Jarmos-san/jarmos.dev]]),
+  [#text(strong("Senior Software Engineer"), size: 12pt), Augwir Technologies -- Remote], grid.cell(
+    align(right, [2021-2022]),
   ),
 )
+
+- TODO: Add some pointers about working in Augwir Technologies Ltd.
+- #lorem(20)
+- #lorem(20)
+- #lorem(20)
+
+#grid(
+  columns: (auto, 1fr),
+  [#text(strong("Technical Writer"), size: 12pt), deepen -- Remote], grid.cell(align(right, [2020-2021])),
+)
+
+- *Collaborated with the marketing team* to develop a content strategy focused on technical topics such as *Computer Vision (CV) and Machine Learning (ML)*, bridging the knowledge gap and ensuring accurate, high-quality articles.
+
+- *Published technical content on CV technologies and Autonomous Vehicles (AVs)* on the company's engineering blog. This collaboration led to a *25% improvement in keyword selection*, enhancing the technical accuracy and searchability of published articles.
+
+- *Optimized past and future blog posts* for SEO by ensuring the inclusion of *relevant technical keywords*. This initiative resulted in a *3x increase in organic traffic*, boosting the blog's visibility and engagement.
+
+#grid(
+  columns: (auto, 1fr),
+  [#text(strong("Software Support Engineer"), size: 12pt), MoveInSync -- Bangalore, India], grid.cell(
+    align(right, [2019-2020]),
+  ),
+)
+
+- *Triaged and analyzed* 5-10 tickets daily, assessing severity and escalating critical issues to the Software Engineering (SWE) teams. This *enabled bug fixes to be deployed 5x faster*, reducing downtime and improving system stability.
+
+- *Proactively monitored* the frontend for unintended behavior, diagnosing and resolving backend issues *within 24* hours when necessary. This ensured a *seamless user experience*, reducing frontend-related issue escalations.
+
+- *Facilitated cross-functional collaboration* between Customer Support and SWE teams, ensuring clear documentation and communication of support tickets. This led to a *90% reduction in miscommunications*, accelerating bug resolution and improving customer satisfaction.
 
 // The "education" section
 #section[Education]
