@@ -21,7 +21,7 @@ jobs:
       - name: Determine Version Tag
         id: version
         run: |
-          echo "tag=v$(date +'%Y.%m')" >> "$GITHUB_OUTPUT"
+          echo "tag=v$(date +'%Y.%m.%d')" >> "$GITHUB_OUTPUT"
 
       - name: Create Git Tag and Push
         run: |
