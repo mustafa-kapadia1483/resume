@@ -68,25 +68,20 @@
 
 #role("Senior Software Engineer", "Augwir Technologies", "Remote", "2021", "2022")
 
-- TODO: Add some pointers about working in Augwir Technologies Ltd.
-- #lorem(20)
-- #lorem(20)
-- #lorem(20)
+- *Built an engineering team from the ground up*, establishing foundational development workflows and management guidelines that streamlined collaboration and enhanced productivity.
+- *Led a cross-functional engineering team* (Frontend, Backend, and DevOps) to *design*, *develop*, and *launch the company's Minimum Viable Product (MVP)*, expediting product validation and market entry.
+- *Designed the foundational architecture* for the company's flagship product, leveraging state-of-the-art photogrammetry and Machine Learning (ML) techniques to generate high-fidelity 3D models from 2D images.
 
 #role("Technical Writer", "deepen", "Remote", "2020", "2021")
 
 - *Collaborated with the marketing team* to develop a content strategy focused on technical topics such as *Computer Vision (CV) and Machine Learning (ML)*, bridging the knowledge gap and ensuring accurate, high-quality articles.
-
 - *Published technical content on CV technologies and Autonomous Vehicles (AVs)* on the company's engineering blog. This collaboration led to a *25% improvement in keyword selection*, enhancing the technical accuracy and searchability of published articles.
-
 - *Optimized past and future blog posts* for SEO by ensuring the inclusion of *relevant technical keywords*. This initiative resulted in a *3x increase in organic traffic*, boosting the blog's visibility and engagement.
 
 #role("Software Support Engineer", "MoveInSync", "Bangalore, India", "2019", "2020")
 
 - *Triaged and analyzed* 5-10 tickets daily, assessing severity and escalating critical issues to the Software Engineering (SWE) teams. This *enabled bug fixes to be deployed 5x faster*, reducing downtime and improving system stability.
-
 - *Proactively monitored* the frontend for unintended behavior, diagnosing and resolving backend issues *within 24* hours when necessary. This ensured a *seamless user experience*, reducing frontend-related issue escalations.
-
 - *Facilitated cross-functional collaboration* between Customer Support and SWE teams, ensuring clear documentation and communication of support tickets. This led to a *90% reduction in miscommunications*, accelerating bug resolution and improving customer satisfaction.
 
 // The "education" section
