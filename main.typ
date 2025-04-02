@@ -46,6 +46,11 @@
   v(6pt, weak: true)
 }
 
+// Function to render the academic entries
+#let college(name, degree, subject, start, end) = {
+  grid(columns: (auto, 1fr), [*#name* - #degree in #subject], grid.cell(align(right, [#start\-#end])))
+}
+
 // The top-level heading of the resume
 #header(name: "Somraj Saha")
 
@@ -86,7 +91,5 @@
 
 // The "education" section
 #section[Education]
-#grid(
-  columns: (auto, 1fr),
-  [*University of Hyderabad* - MA in Economics], grid.cell(align(right, [2013-19])),
-)
+
+#college("University of Hyderabad", "MA", "Economics", "2013", "2019")
