@@ -67,9 +67,10 @@
 
 #role("Chief Technology Officer (CTO)", "Weburz Ltd", "Remote", "2022", "2025")
 
-- #lorem(20)
-- #lorem(20)
-- #lorem(20)
+- *Co-founded* a company specializing in *custom web-based software solutions*, empowering *e-commerce merchants and social media influencers* with tailored digital tools to streamline operations and enhance their online presence.
+- *Established and led the engineering team*, overseeing Software Development, Cybersecurity, and DevOps, and *implemented best practices* to ensure scalability, security, and operational efficiency.
+- *Designed and led* the development of BurzCommerce and BurzContent (Open-Source Software), the company's flagship products. These platforms were purpose-built for e-commerce and content creators, increasing customer adoption and driving revenue growth for the company.
+- *Spearheaded* the company's *open-source software initiative*, for BurzContent by establishing contribution guidelines, promoting adoption and engaging with developers to strengthen the project's presence.
 
 #role("Senior Software Engineer", "Augwir Technologies", "Remote", "2021", "2022")
 
