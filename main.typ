@@ -42,17 +42,25 @@
 #set text(font: "Liberation Serif")
 
 // Function to define the header of the resume
-#let header(name) = {
+#let header(name, contacts) = {
   text(size: 25pt, align(center, [#name]))
   v(15pt, weak: true)
+
   text(
     align(
       center,
       [
-        // TODO: Replace the following with a for loop
-        #link("mailto:somraj.saha@jarmos.dev")[somraj.saha\@jarmos.dev] |
-        #link("https://jarmos.dev")[jarmos.dev] |
-        #link("https://github.com/Jarmos-san")[github.com/Jarmos-san]
+        #(
+          contacts
+            .map(contact => {
+              if contact.at("type", default: none) == "email" {
+                link("mailto:" + contact.url)[#contact.display]
+              } else {
+                link(contact.url)[#contact.display]
+              }
+            })
+            .join([ | ])
+        )
       ],
     ),
   )
@@ -86,7 +94,14 @@
 }
 
 // The top-level heading of the resume
-#header(doc.author)
+#header(
+  "Somraj Saha",
+  (
+    (type: "email", url: "somraj.saha@jarmos.dev", display: "somraj.saha@jarmos.dev"),
+    (url: "https://jarmos.dev", display: "jarmos.dev"),
+    (url: "https://github.com/Jarmos-San", display: "github.com/Jarmos-san"),
+  ),
+)
 
 #linebreak()
 
