@@ -37,11 +37,13 @@ jobs:
         uses: typst-community/setup-typst@v4.1.0
 
       - name: Build the Artifact
-        run: typst compile main.typ resume.pdf
+        run: |
+          mkdir build
+          typst compile src/main.typ build/resume.pdf
 
       - name: Create GitHub Release using CLI
         run: |
-          gh release create $TAG resume.pdf --title "$TAG" --repo $GITHUB_REPOSITORY
+          gh release create $TAG build/resume.pdf --title "$TAG" --repo $GITHUB_REPOSITORY
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAG: ${{ steps.version.outputs.tag }}
