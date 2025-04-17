@@ -1,8 +1,7 @@
 // Function to define the header of the resume
 #let header(name, contacts) = {
   text(size: 25pt, align(center, [#name]))
-  v(15pt, weak: true)
-
+  v(8pt, weak: true)
   text(
     align(
       center,
@@ -21,6 +20,7 @@
       ],
     ),
   )
+  v(25pt, weak: true)
 }
 
 // Function definition to render the roles

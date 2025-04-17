@@ -15,7 +15,6 @@
 
 // The top-level heading of the resume
 #header(details.name, details.links)
-#linebreak()
 
 // The "skills" section
 #section[Skills]
