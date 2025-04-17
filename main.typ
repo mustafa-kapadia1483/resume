@@ -22,6 +22,16 @@
   "Miscellaneous": "Terraform, Ansible, Git, Packer, PostgreSQL",
 )
 
+// Variables for storing the header related information
+#let details = (
+  name: "Somraj Saha",
+  links: (
+    (type: "email", url: "somraj.saha@jarmos.dev", display: "somraj.saha@jarmos.dev"),
+    (url: "https://jarmos.dev", display: "jarmos.dev"),
+    (url: "https://github.com/Jarmos-San", display: "github.com/Jarmos-san"),
+  ),
+)
+
 // TODO: Create a dictionary of arrays to contain the experiences
 
 // Set the metadata for the document
@@ -94,14 +104,7 @@
 }
 
 // The top-level heading of the resume
-#header(
-  "Somraj Saha",
-  (
-    (type: "email", url: "somraj.saha@jarmos.dev", display: "somraj.saha@jarmos.dev"),
-    (url: "https://jarmos.dev", display: "jarmos.dev"),
-    (url: "https://github.com/Jarmos-San", display: "github.com/Jarmos-san"),
-  ),
-)
+#header(details.name, details.links)
 
 #linebreak()
 
