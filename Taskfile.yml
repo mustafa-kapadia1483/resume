@@ -17,7 +17,7 @@ tasks:
       usage and hence should not be treated as such.
     cmd: typst watch {{ .TYPST_FILENAME }} {{ .PDF_FILENAME }}
 
-  compile:
+  build:
     desc: Compile the Typst file to PDF
     summary: |
       Compile the Typst file to PDF.
@@ -31,6 +31,7 @@ tasks:
     status:
       - test -x "$(command -v typst)"
     cmds:
+      - "[[ -d build ]] || mkdir build"
       - echo "Compiling the {{ .TYPST_FILENAME }} file to {{ .PDF_FILENAME }}"
       - typst compile {{ .TYPST_FILENAME }} {{ .PDF_FILENAME }}
 
