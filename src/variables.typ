@@ -17,8 +17,8 @@
 
 // Skills
 #let skills = (
-  "Software Development": "Python, JavaScript (and TypeScript)",
-  "Frameworks & Libraries": "Flask, Svelte, Electron, React, NextJS, SQLAlchemy",
+  "Software Development": "Python, JavaScript (and TypeScript), HTML, CSS",
+  "Frameworks & Libraries": "Flask, Svelte, Electron, React, NextJS, Tailwind, SQLAlchemy",
   "Miscellaneous": "GCP, Redis, Web automation, Client Onboarding & Technical Documentation, Product Ownership",
 )
 
