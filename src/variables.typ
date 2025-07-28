@@ -38,7 +38,7 @@
     designation: "Product Owner & Engineer",
     company: "AVRL",
     location: "Remote",
-    start: "March 2024",
+    start: "Mar 2024",
     end: "Present",
     achievements: (
       [Currently leading the development of the Phoenix system at AVRL using Flask, the core API platform powering all automation processes for generating base rates used in spot freight bidding. Standardized processes to maximize customer flexibility in fine-tuning rates, enhancing control over pricing strategies and driving increased profitability.],
@@ -51,8 +51,8 @@
     designation: "Software Developer Engineer",
     company: "AVRL",
     location: "Remote",
-    start: "June 2022",
-    end: "March 2024",
+    start: "Jun 2022",
+    end: "Mar 2024",
     achievements: (
       [Leveraging my proficiency in JavaScript, I contribute my skills to AVRL, enhancing their ability to provide clients with cutting-edge web automations],
       [Demonstrating expertise in web automation, I am entrusted with the responsibility of managing and optimizing over 4 automation templates. My role involves frequent updates to enhance their modularity and minimize errors, ensuring minimal downtime for automations. I prioritize proactive error logging for swift and accurate issue resolution, contributing to the seamless functioning of automated processes],
