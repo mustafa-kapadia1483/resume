@@ -1,86 +1,75 @@
 // Document metadata
 #let doc = (
-  author: "Somraj Saha",
-  title: "Somraj Saha's Resume",
-  description: "Somraj Saha's Software Development Engineering (SDE) resume written and built using Typst.",
+  author: "Mustafa Kapadia",
+  title: "Mustafa Kapadia's Resume",
+  description: "Mustafa Kapadia's Software Development Engineering (SDE) resume written and built using Typst.",
   keywords: ("resume", "engineering", "typst"),
 )
 
 // College related information
 #let college = (
-  name: "University of Hyderabad",
-  degree: "MA",
-  subject: "Economics",
-  start: 2013,
-  end: 2019,
+  name: "Vidyalankar School of Information Technology",
+  degree: "BSc",
+  subject: "Information Technology",
+  start: 2019,
+  end: 2022,
 )
 
 // Skills
 #let skills = (
-  "Software Development": "Python, Golang, Lua, TypeScript (and JavaScript)",
-  "Frameworks & Libraries": "FastAPI, Nuxt.js, Chi, SQLAlchemy",
-  "Miscellaneous": "Terraform, Ansible, Git, Packer, PostgreSQL",
+  "Software Development": "Python, JavaScript (and TypeScript)",
+  "Frameworks & Libraries": "Flask, Svelte, Electron, React, NextJS, SQLAlchemy",
+  "Miscellaneous": "GCP, Redis, Web automation, Client Onboarding & Technical Documentation, Product Ownership",
 )
 
 // Header related information
 #let details = (
-  name: "Somraj Saha",
+  name: "Mustafa Kapadia",
   links: (
-    (type: "email", url: "somraj.saha@jarmos.dev", display: "somraj.saha@jarmos.dev"),
-    (url: "https://jarmos.dev", display: "jarmos.dev"),
-    (url: "https://github.com/Jarmos-San", display: "github.com/Jarmos-san"),
+    (type: "email", url: "mustafa_kapadia@protonmail.com", display: "mustafa_kapadia@protonmail.com"),
+    (url: "https://www.mustafak.dev", display: "mustafak.dev"),
+    (url: "https://github.com/mustafa-kapadia1483", display: "github.com/mustafa-kapadia1483"),
   ),
 )
 
 // Past work experience and achievements
 #let experiences = (
   (
-    designation: "Chief Technology Officer (CTO)",
-    company: "Weburz Ltd",
+    designation: "Product Owner & Engineer",
+    company: "AVRL",
     location: "Remote",
-    start: "2022",
-    end: datetime.today().year(),
+    start: "March 2024",
+    end: "Present",
     achievements: (
-      [*Co-founded* a company specializing in *custom web-based software solutions*, empowering *e-commerce merchants and social media influencers* with tailored digital tools to streamline operations and enhance their online presence.],
-      [*Established and led the engineering team*, overseeing Software Development, Cybersecurity, and DevOps, and *implemented best practices* to ensure scalability, security, and operational efficiency.],
-      [*Designed and led* the development of BurzCommerce and BurzContent (Open-Source Software), the company's flagship products. These platforms were purpose-built for e-commerce and content creators, increasing customer adoption and driving revenue growth for the company.],
-      [*Spearheaded* the company's *open-source software initiative*, for BurzContent by establishing contribution guidelines, promoting adoption and engaging with developers to strengthen the project's presence.],
+      [Currently leading the development of the Phoenix system at AVRL using Flask, the core API platform powering all automation processes for generating base rates used in spot freight bidding. Standardized processes to maximize customer flexibility in fine-tuning rates, enhancing control over pricing strategies and driving increased profitability.],
+      [Oversaw the migration and deployment of Phoenix API to multiple client-owned & AVRL managed infrastructures (GCP, Azure and on-premise VM), ensuring smooth deployments & updates],
+      [Played a crucial role in onboarding new clients end-to-end, from setting up their Phoenix API, virtual machines (VMs), and MySQL-based Datastore (with Datastore APIs) in client-owned GCP projects, to assisting with on-prem or cloud deployments. Provided detailed Datastore API documentation and pre-built Flask-based Phoenix API code to streamline client-led implementations.],
+      [Led the development of the callAG API at AVRL, streamlining automation for third-party logistics in the U.S. spot freight market by replacing web scraping. Achieved an 80% reduction in bot processing times, significantly increasing the volume of freight opportunities secured for clients],
     ),
   ),
   (
-    designation: "Senior Software Engineer",
-    company: "Augwir Technologies",
+    designation: "Software Developer Engineer",
+    company: "AVRL",
     location: "Remote",
-    start: 2021,
-    end: 2022,
+    start: "June 2022",
+    end: "March 2024",
     achievements: (
-      [*Built an engineering team from the ground up*, establishing foundational development workflows and management guidelines that streamlined collaboration and enhanced productivity.],
-      [*Led a cross-functional engineering team* (Frontend, Backend, and DevOps) to *design*, *develop*, and *launch the company's Minimum Viable Product (MVP)*, expediting product validation and market entry.],
-      [*Designed the foundational architecture* for the company's flagship product, leveraging state-of-the-art photogrammetry and Machine Learning (ML) techniques to generate high-fidelity 3D models from 2D images.],
+      [Leveraging my proficiency in JavaScript, I contribute my skills to AVRL, enhancing their ability to provide clients with cutting-edge web automations],
+      [Demonstrating expertise in web automation, I am entrusted with the responsibility of managing and optimizing over 4 automation templates. My role involves frequent updates to enhance their modularity and minimize errors, ensuring minimal downtime for automations. I prioritize proactive error logging for swift and accurate issue resolution, contributing to the seamless functioning of automated processes],
+      [Designed and developed 10+ automation templates for clients, optimizing operational efficiency. Reduced automation run times by up to 30%, enabling faster and more reliable process execution.],
+      [Consistently maintained the lowest ticket turnaround times while ensuring continuous monitoring of automation bots. Improved customer satisfaction and reduced automation downtime by up to 40%, leading to enhanced ROI for clients.],
     ),
   ),
   (
-    designation: "Technical Writer",
-    company: "deepen",
-    location: "Remote",
-    start: "2020",
-    end: "2021",
+    designation: "Associate Software Engineer",
+    company: "Vistaar Digital Communications Pvt. Ltd.",
+    location: "Mumbai",
+    start: "Jan 2022",
+    end: "May 2022",
     achievements: (
-      [*Collaborated with the marketing team* to develop a content strategy focused on technical topics such as *Computer Vision (CV) and Machine Learning (ML)*, bridging the knowledge gap and ensuring accurate, high-quality articles.],
-      [*Published technical content on CV technologies and Autonomous Vehicles (AVs)* on the company's engineering blog. This collaboration led to a *25% improvement in keyword selection*, enhancing the technical accuracy and searchability of published articles.],
-      [*Optimized past and future blog posts* for SEO by ensuring the inclusion of *relevant technical keywords*. This initiative resulted in a *3x increase in organic traffic*, boosting the blog's visibility and engagement.],
-    ),
-  ),
-  (
-    designation: "Software Support Engineer",
-    company: "MoveInSync",
-    location: "Bangalore, India",
-    start: "2019",
-    end: "2020",
-    achievements: (
-      [*Triaged and analyzed* 5-10 tickets daily, assessing severity and escalating critical issues to the Software Engineering (SWE) teams. This *enabled bug fixes to be deployed 5x faster*, reducing downtime and improving system stability.],
-      [*Proactively monitored* the frontend for unintended behavior, diagnosing and resolving backend issues *within 24* hours when necessary. This ensured a *seamless user experience*, reducing frontend-related issue escalations.],
-      [*Facilitated cross-functional collaboration* between Customer Support and SWE teams, ensuring clear documentation and communication of support tickets. This led to a *90% reduction in miscommunications*, accelerating bug resolution and improving customer satisfaction.],
+      [Developed and customized WordPress plugins and widgets to meet client-specific functionality and design requirements, ensuring seamless integration with existing site structures.],
+      [Collaborated directly with clients to gather requirements for UI components and page layouts, translating their concepts into responsive, interactive designs using HTML, CSS, and JavaScript for both WordPress and non-WordPress websites.],
+      [Optimized website performance, improving load times and enhancing overall user experience across multiple client projects.],
     ),
   ),
 )
